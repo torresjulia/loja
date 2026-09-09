@@ -44,7 +44,7 @@ export class CriaProdutoDTO {
 
     @ValidateNested()
     @IsArray()
-    @ArrayMinSize(3)
+    @ArrayMinSize(2)
     @Type(() => CaracteristicaProdutoDTO)
     caracteristicas: string; 
 
